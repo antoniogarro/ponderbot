@@ -1,5 +1,5 @@
 
-Ponderbot is a Python script that can be used to let UCI chess engines play on the Internet Free
+Ponderbot is a Python script that can be used to let UCI chess engines play on the Free Internet
 Chess Server ([FICS](https://www.freechess.org)).
 
 I use it routinely to automate the connection to FICS of my chess engine
@@ -19,7 +19,7 @@ You may want to specify:
  - SEEKS: three possible seek parameters, to be sent by the engine upon login and
    after every game's end.
  - HASH: size for the hash table (in MB), if supported by the engine.
- - PONDER: whether the engine will be allowed to think during the oponnent's time.
+ - PONDER: whether the engine will be allowed to think during the opponent's time.
  - AUTOACCEPT: whether to accept every challenge received.
  - RESTART_ON_NEW: whether to restart the engine after every match.
  - QUIT_ON_LOSE: whether to quit after losing (useful for debugging purposes).
@@ -40,7 +40,7 @@ tells with '!', such as: "tell <engine_handle> !<command>". Some examples:
 License
 -------
 
-Ponderbot is released under the GPL license. Plase see
+Ponderbot is released under the GPL license. Please see
 [https://www.gnu.org/licenses/gpl](https://www.gnu.org/licenses/gpl) for the details.
 
 
